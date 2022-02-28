@@ -1,5 +1,7 @@
 # pongo2gcloud
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/dieselburner/pongo2gcloud.svg)](https://pkg.go.dev/github.com/dieselburner/pongo2gcloud)
+
 [pongo2](https://github.com/flosch/pongo2) provides Django-syntax like templating language for Go applications. One of the great things about pongo2 is that it supports [template sets](https://pkg.go.dev/github.com/flosch/pongo2#TemplateSet) and [custom template loaders](https://pkg.go.dev/github.com/flosch/pongo2#TemplateLoader).
 
 This package adds support for loading templates from [Google Cloud Storage](https://cloud.google.com/storage).
