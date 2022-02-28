@@ -15,11 +15,13 @@ This package adds support for loading templates from [Google Cloud Storage](http
 import "github.com/dieselburner/pongo2gcloud"
 ```
 
+## Variables
+
+Set `ProjectID` to your Google Cloud Project ID. If not set, `pongo2gcloud` will autodetect it when running on Google Cloud Engine, otherwise will panic.
+
 ## Example
 
 [Gin](https://github.com/gin-gonic/gin) example, through [modified pongo2gin middleware](https://github.com/dieselburner/pongo2gin):
-
-Set `ProjectID` to your Google Cloud Project ID. If not set, `pongo2gcloud` will autodetect it when running on Google Cloud Engine, otherwise will panic.
 
 ```go
 import (
