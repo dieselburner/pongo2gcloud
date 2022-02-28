@@ -1,6 +1,7 @@
 # pongo2gcloud
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/dieselburner/pongo2gcloud.svg)](https://pkg.go.dev/github.com/dieselburner/pongo2gcloud)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dieselburner/pongo2gcloud/blob/master/LICENSE)
 
 [pongo2](https://github.com/flosch/pongo2) provides Django-syntax like templating language for Go applications. One of the great things about pongo2 is that it supports [template sets](https://pkg.go.dev/github.com/flosch/pongo2#TemplateSet) and [custom template loaders](https://pkg.go.dev/github.com/flosch/pongo2#TemplateLoader).
 
