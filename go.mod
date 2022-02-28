@@ -1,4 +1,4 @@
-module github.com/dieselburner/pongo2-gcloud
+module github.com/dieselburner/pongo2gcloud
 
 go 1.16
 
