@@ -21,14 +21,14 @@ Set `ProjectID` to your Google Cloud Project ID. If not set, `pongo2gcloud` will
 
 ## Example
 
-[Gin](https://github.com/gin-gonic/gin) example, through [modified pongo2gin middleware](https://github.com/dieselburner/pongo2gin):
+[Gin](https://github.com/gin-gonic/gin) example:
 
 ```go
 import (
 	...
 	"github.com/dieselburner/pongo2gcloud"
-	"github.com/dieselburner/pongo2gin"
 	"github.com/flosch/pongo2/v5"
+	"gitlab.com/go-box/pongo2gin"
 	...
 )
 
